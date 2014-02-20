@@ -1,29 +1,13 @@
 {
-    "name"            : "traversty"
-  , "description"     : "Library agnostic utility for DOM collection management and traversal"
-  , "version"         : "1.0.5"
-  , "homepage"        : "https://github.com/rvagg/traversty"
-  , "authors"         : [
-        "Rod Vagg @rvagg <rod@vagg.org> (https://github.com/rvagg)"
-    ]
-  , "keywords"        : ["ender", "dom", "nodes", "traversal"]
-  , "main"            : "./traversty.js"
-  , "ender"           : "./ender_bridge.js"
-  , "repository"      : {
-        "type"            : "git"
-      , "url"             : "https://github.com/rvagg/traversty.git"
-    }
-  , "devDependencies" : {
-        "bustermove"      : "*"
-      , "qwery"           : "*"
-      , "qwery-pseudos"   : "*"
-      , "sizzle"          : "*"
-      , "nwmatcher"       : "*"
-      , "brtapsauce"      : "*"
-    }
-  , "license"         : "MIT"
-  , "scripts"         : {
-        "test-local"          : "brtapsauce-local test/browserify.js"
-      , "test"                : "test/sauce.js"
-    }
+  "name": "rvagg-traversty",
+  "description": "Library agnostic utility for DOM collection management and traversal",
+  "version": "1.0.3",
+  "keywords": [
+    "ender",
+    "dom",
+    "nodes",
+    "traversal"
+  ],
+  "main": "./traversty.js",
+  "dependencies": {}
 }
